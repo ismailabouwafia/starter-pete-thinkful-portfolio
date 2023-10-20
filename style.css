@@ -14,25 +14,25 @@
   
 .item {
   flex: 1;
-  margin: 3px;
+  margin: 3px;    /* adding spacing */
   }
 
 body {
   background-color: #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
+  padding: 40px;     /* changed padding value */
 }
 
 /* Unsorted lists */
 ul {
-  text-align: left;
+  text-align: left;   /* adjusting alignment of uls */
 }
 
 /* Headings */
 h1, h2, h3 {
   font-family: "Playfair Display", Times, serif;
-  text-align: center;
+  text-align: center;   /* adjusting alignment of headings */
 }
 
 /* Header */
@@ -88,7 +88,7 @@ img {
 }
 
 /* Footer */
-footer, footer p {
+footer, footer p {        /* added footer p as well */
   text-align: center;
 }
 
