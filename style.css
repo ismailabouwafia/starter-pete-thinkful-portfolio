@@ -14,14 +14,13 @@
   
 .item {
   flex: 1;
-  margin: 3px;    /* adding spacing */
+  border: black solid 1px;
   }
 
 body {
   background-color: #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;     /* changed padding value */
 }
 
 /* Unsorted lists */
@@ -42,7 +41,6 @@ header {
 
 /* Containers */
 div {
-  background-color: #eae2b7;
   margin: auto;
   width: 750px;
 }
@@ -62,6 +60,11 @@ p {
   text-align: left;
 }
 
+article > div > section > div > p {
+  font-size: 14px; 
+  text-align: center
+}
+
 /* Links */
 a:link {
   color: #d62828;
@@ -72,14 +75,12 @@ a:hover {
 }
 
 nav a {
-  padding-left: 20px;
+  margin-left: 20px; 
 }
 
 /* Images */
 img {
-  width: 150%;
   max-width: 250px;
-  height: auto;
 }
 
 .image-circle {
