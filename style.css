@@ -1,6 +1,22 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
+
+/* new code */
+* {
+  box-sizing: border-box;
+  }
+  
+.group {
+  display: flex;
+  flex-direction: row; 
+  }
+  
+.item {
+  flex: 1;
+  margin: 3px;
+  }
+
 body {
   background-color: #eae2b7;
   color: #003049;
@@ -8,10 +24,13 @@ body {
   padding: 40px;
 }
 
+/* Unsorted lists */
+ul {
+  text-align: left;
+}
+
 /* Headings */
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
 }
@@ -25,7 +44,7 @@ header {
 div {
   background-color: #eae2b7;
   margin: auto;
-  width: 600px;
+  width: 750px;
 }
 
 article {
@@ -40,6 +59,7 @@ article div {
 /* Paragraphs */
 p {
   line-height: 1.5;
+  text-align: left;
 }
 
 /* Links */
@@ -57,8 +77,8 @@ nav a {
 
 /* Images */
 img {
-  width: 100%;
-  max-width: 200px;
+  width: 150%;
+  max-width: 250px;
   height: auto;
 }
 
@@ -68,11 +88,13 @@ img {
 }
 
 /* Footer */
-footer {
+footer, footer p {
   text-align: center;
 }
+
 
 /* Other page elements */
 hr {
   border: 1px solid black;
 }
+
